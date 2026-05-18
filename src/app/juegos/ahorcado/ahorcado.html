@@ -1,5 +1,5 @@
 <div class="pizarron">
-
+  <img class="volver" src="assets/volver.png" (click)="volverAlMenu()" />
   @if (estado === 'menu') {
     <div class="modal">
       <h1>¡Bienvenido al Ahorcado!</h1>
@@ -9,7 +9,6 @@
   }
 
   @else if (estado === 'jugando') {
-    <img class="volver" src="assets/volver.png" (click)="volverAlMenu()" />
     <h1>Ahorcado</h1>
     <h2>Racha: {{ racha }}</h2>
     <div class="contenido">

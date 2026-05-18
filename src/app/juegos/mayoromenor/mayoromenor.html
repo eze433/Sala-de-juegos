@@ -1,9 +1,6 @@
 <div id="mesa" class="mesa">
   <img src="assets/mazo.png" class="juego mazo" />
-
-  @if (estado === 'jugando') {
-    <img class="flecha" src="assets/volver.png" (click)="volverAlMenu()" />
-  }
+  <img class="volver" src="assets/volver.png" (click)="volverAlMenu()" />
 
   @if (estado === 'menu') {
     <div class="modal">

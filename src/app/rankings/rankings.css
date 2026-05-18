@@ -11,15 +11,15 @@
   overflow: hidden;
 }
 
-.flecha {
-  position: absolute;
-  top: 4%;
-  left: 2%;
-  width: 100px;
-  cursor: pointer;
+.volver {
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    width: 8%;
+    cursor: pointer;
 }
 
-.flecha:hover {
+.volver:hover {
   filter: 
     drop-shadow(1px 0px 0px white)
     drop-shadow(-1px 0px 0px white)
