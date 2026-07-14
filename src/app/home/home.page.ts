@@ -21,12 +21,6 @@ export class HomePage {
     this.router.navigate([`/${juego}`]);
   }
 
-  ngOnInit() {
-    this.authService.getUser().then((user) => {
-      console.log(user);
-    });
-  }
-
   async logout() {
     await this.auth.logout();
   }
